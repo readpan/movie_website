@@ -1,7 +1,9 @@
 # Movie Info Class
 class Movie:
-    """Movie Info Class.Include movie title, movie storyline, poster image and trailer."""
-    def __init__(self, title, movie_storyline, poster_image_url, trailer_youtube_url):
+    """Movie Info Class.
+    Include movie title, movie storyline, poster image and trailer."""
+    def __init__(self, title, movie_storyline,
+                 poster_image_url, trailer_youtube_url):
         """Init the instance.Include title,storyline,poster image and link."""
         self.trailer_youtube_url = trailer_youtube_url
         self.poster_image_url = poster_image_url
