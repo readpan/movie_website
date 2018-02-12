@@ -2,7 +2,9 @@
 
 ## Usage
 
-- Just run main.py file.
+1.clone the repo from github
+2.Open python console
+3.Run main.py file.
 ```python
 python main.py
 ```
